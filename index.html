@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="icon" type="image/x-icon" href="./assets/imgs/clock.png">
+        <title>Date & Time</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">Date & Time</div>
+            <div class="app-container">
+                <div class="time-ctr">
+                    <select
+                        name="time-format"
+                        id="time-format"
+                        class="select-box"
+                    >
+                        <option value="12format">12 Format</option>
+                        <option value="24format">24 Format</option>
+                    </select>
+                    <p id="full-time" class="full-time text">00:00:00</p>
+                    <p id="am-pm" class="am-pm-text">AM</p>
+                </div>
+                <div class="day-ctr">
+                    <p id="en-day" class="en-day text">Saturday</p>
+                    <div class="separator"></div>
+                    <p id="ar-day" class="ar-day text">السبت</p>
+                </div>
+                <div class="hijri-date-ctr date-ctr">
+                    <p class="label text">هجري</p>
+                    <p id="hijri" class="hijri text">00/00/0000</p>
+                </div>
+                <div class="gregorian-date-ctr date-ctr">
+                    <p class="label text">ميلادي</p>
+                    <p id="gregorian" class="gregorian text">00/00/0000</p>
+                </div>
+                <div class="month-name-ctr">
+                    <p id="en-month" class="en-month text">January</p>
+                    <div class="separator"></div>
+                    <p id="ar-month" class="ar-month text">محرم</p>
+                </div>
+            </div>
+            <footer>
+                <p class="footer-info">
+                    Made by <a href="https://github.com/BugSlicer">BugSlicer</a>
+                </p>
+            </footer>
+        </div>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
