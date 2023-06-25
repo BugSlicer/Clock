@@ -24,7 +24,7 @@ The app is built using the following technologies:
 
 To use the app, simply open the `index.html` file in a web browser. The app will automatically display the current time and date information.
 
-or you can use the live preview provided by GitHub [Click Here](#)
+or you can use the live preview provided by GitHub [Click Here](https://bugslicer.github.io/Clock/)
 
 ## Contributions
 
